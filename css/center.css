@@ -1,0 +1,149 @@
+
+/*.maincontainer{
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+ border-radius: 10%;
+
+align-content: center;
+
+    
+}
+
+
+.subfleximContainer{
+background-color: greenyellow;
+margin: 10px 10px;
+border-radius: 10%;
+width: 230px;
+height: 220px;
+
+margin: auto;
+
+}
+
+.planta1{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#67ff0f,#8debb4, #2bff00);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    height: 12px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 20px;
+    
+    
+    
+}*/
+
+.capture:hover{
+    color: red;
+
+}
+
+
+.window{
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+}
+
+
+.imgcontainer img {
+    height: 150px;
+}
+
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.pokecont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px wheat;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    height: 400px;
+    
+}
+.name{
+    text-decoration: none;
+}
+
+.name1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.type{
+    background-color:wheat;
+    text-align: start;
+    border: solid 1px;
+    border-radius: 50px;
+    margin-left: 5px;
+    padding: 5px;
+    text-decoration: none;
+  
+    
+
+}
+.alinhamento{
+
+display: flex;
+align-items: flex-start;
+margin: 0;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.alinhamento span{
+ 
+   margin-top: 10px;
+   
+    
+    
+}
+
+.imgcontainer{
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border:  solid 1px;
+    text-decoration: none;
+}
+
+.number{
+    background-color: rgb(240, 224, 172);
+    border-radius: 50px;
+    border:  solid 1px;
+    padding: 5px 25px;
+    
+   
+
+}
+

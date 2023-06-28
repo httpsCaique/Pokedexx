@@ -1,0 +1,413 @@
+nav{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    margin-left: 0;
+    font-family:my_font;
+    
+    
+}
+
+span, .capture{
+    font-size: 20px;
+
+
+    
+}
+
+@media screen and (min-width: 400px) 
+{
+/* aki é o que vai adicionar apos definir os 400px ali em cima */
+    
+    .container div{
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+    nav{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        font-family:my_font;
+        text-align:start;
+        
+    }
+}
+
+
+@media screen and (max-width: 1400px) 
+{
+/* aki é o que vai adicionar apos definir os 400px ali em cima */
+    
+    .container div{
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+    
+    nav{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        font-family:my_font;
+        text-align:start;
+        
+    }
+}
+
+.elements1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+
+.elements2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:space-around;
+    text-align: center;
+}
+
+
+@keyframes color
+    
+ {
+   0% { background-position:  0%, 50%;}
+
+   50% { background-position: 100%, 0%;}
+   
+   100% { background-position: 0%, 50%;}
+}
+
+
+.pokebola{
+margin-top: 2px;
+}
+
+
+.itens{
+    border-radius: 50px;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 5px;
+    font-size: 15px;
+    border: solid 1px;
+    animation: color 5s ease infinite;
+    background: linear-gradient(45deg, #ff0000, rgb(252, 180, 139), rgb(255, 77, 7));
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+
+}
+
+.fogo {
+    border-radius: 50px;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 5px;
+    font-size: 15px;
+    border: solid 1px;
+    animation: color 5s ease infinite;
+    background: linear-gradient(45deg, #ff0000, rgb(252, 180, 139), rgb(255, 77, 7));
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    
+}
+.agua{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#009cf7,#7dc7f1, rgba(1, 111, 236, 0.877));
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 45px;
+    border: solid 1px;
+    
+}
+.pedra{
+    border-radius: 50px;
+    background: #6e3b00;
+    background: linear-gradient(45deg,#6e3b00,#f5bd7d, #a55901);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    border: solid 1px;
+    
+    
+}
+.planta{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#67ff0f,#8debb4, #2bff00);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 3rem;
+    border: solid 1px;
+    
+}
+
+.veneno{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#930fff,#9b8deb, #8c00ff);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 70px;
+    border: solid 1px;
+    
+    
+}
+
+.normal{
+    border-radius: 50px;
+ 
+    background: linear-gradient(45deg,#fde0bf,#91785e, #ffe6c9);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 25px 15px 12px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 3rem;
+    border: solid 1px;
+}
+.gelo{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#00d9ff,#94f3ff, #00ffea);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 40px;
+    border: solid 1px;
+    
+    
+}
+    
+.psiquico{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#ff49e1,#fb8fff, #ff00ff);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 80px;
+    border: solid 1px;
+    
+    
+}
+.escuro{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#1e0144,#332b58, #1c0049);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+}
+.metal{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#6d6d6d,#afafaf, #5e5e5e);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 60px;
+    border: solid 1px;
+    
+}
+.dragao{
+    border-radius: 50px;
+    background: #3d4ff0;
+    background: linear-gradient(45deg,#3a24ff,#b5a4ff, #3d4ff0);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 80px;
+    border: solid 1px;
+    
+    
+}
+.inseto{
+    border-radius: 50px;
+    background: #075704;
+    background: linear-gradient(45deg,#017401,#3e6148, #008316);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+}
+.grama{
+    border-radius: 50px;
+
+    background: linear-gradient(45deg,#00800b,#93f393, #257945);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+}
+.eletrico{
+    border-radius: 50px;
+
+    background: linear-gradient(45deg,#ffee03,#fff9a7, #f8e800ef);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 80px;
+    border: solid 1px;
+    
+}
+.fada{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#f84cdb,#ff93e8, #fa00af);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+}
+.terra{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#aa5c03,#685036, #5a3102);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 20px 15px 10px;
+  
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+}
+.fantasma{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#0c00b8,#ad9abe, #3000b6);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+}
+.lutador{
+    border-radius: 50px;
+    
+    background: linear-gradient(45deg,#ff0000,#ff7272, #970000);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 90px;
+    border: solid 1px;
+    
+    
+}
+.voador{
+    border-radius: 50px;
+    background: linear-gradient(45deg,#91cecbd3,#e5f0efd3, #00fff2d3);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+    
+    
+}
+.toxico{
+    border-radius: 50px;
+    background: #073800d3;
+    background: linear-gradient(45deg,#00612c,#5d7266, #2400a7);
+    animation: color 5s ease infinite;
+    background-size: 500% 500%;
+    padding: 5px 15px 15px 15px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    height: 5px;
+    width: 65px;
+    border: solid 1px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+    margin-top: 100%;
+}
